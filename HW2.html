@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW2</title>
+</head>
+<body>
+
+<!--Масиви та об'єкти:-->
+<!-- - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль-->
+<script>
+    let article = ['a', 'b', 'c', 'd', 'e', 11, 34, 5, 6, true]
+    console.log(article)
+</script>
+<!-- - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.-->
+<script>
+    let book1 = {
+        title: 'petrushka',
+        pageCount: 250,
+        genre: 'Recipes',
+    }
+    console.log(book1)
+    let book2 = {
+        title: 'abricos',
+        pageCount: 450,
+        genre: 'Fantstic',
+    }
+    console.log(book2)
+    let book3 = {
+        title: 'Zhuravel',
+        pageCount: 280,
+        genre: 'Fantasy',
+    }
+    console.log(book3)
+
+</script>
+<!-- - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.-->
+<script>
+    let book11 = {
+        title: 'Zhmerunka',
+        pageCount: 180,
+        genre: 'Action',
+        author: [{name: 'Ivan', age: 67}]
+    }
+    console.log(book11)
+    let book12 = {
+        title: 'Rubik',
+        pageCount: 150,
+        genre: 'Fantasy',
+        author: [{name: 'Gosha', age: 76}]
+    }
+    console.log(book12)
+    let book13 = {
+        title: 'hot-dog',
+        pageCount: 120,
+        genre: 'Eductional',
+        author: [{name: 'Sergio', age: 36}]
+    }
+    console.log(book13)
+</script>
+<!-- - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача-->
+<script>
+    let users = [
+        {name: 'Oleh', username: 'Khudzik', password: 12121313421},
+        {name: 'Ivan', username: 'Ivanov', password: 123213123},
+        {name: 'Alex', username: 'Kyrulyiuk', password: 1231224},
+        {name: 'Vitalik', username: 'Doskich', password: 876543},
+        {name: 'Yuriy', username: 'Vers', password: 6783434},
+        {name: 'Sasha', username: 'Svit', password: 67865745645},
+        {name: 'Ostap', username: 'Balka', password: 674563423423},
+        {name: 'Karolina', username: 'Olegivna', password: 253445646},
+        {name: 'Roman', username: 'Rak', password: 67756876},
+        {name: 'Rostik', username: 'Tsar', password: 56763453452},
+    ]
+    console.log(users[0].password)
+    console.log(users[1].password)
+    console.log(users[2].password)
+    console.log(users[3].password)
+    console.log(users[4].password)
+    console.log(users[5].password)
+    console.log(users[6].password)
+    console.log(users[7].password)
+    console.log(users[8].password)
+    console.log(users[9].password)
+
+</script>
+
+<!--Логічні розгалуження:-->
+<!-- - Є змінна х, якій ви надаєте довільне числове значення.-->
+<!--Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3-->
+<script>
+    let x1 = +prompt('Довільне числове значення');
+    if (x1 !==0) {
+        console.log('Вірно')
+    } else {
+        console.log('Невірно')
+    }
+</script>
+<!-- - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число-->
+<!--(в першу, другу, третю или четверту частину години).-->
+,
+<script>
+    let time = +prompt('Перевірити до якої години попадає число?');
+    if (time >= 0 && time <= 15) {
+        console.log("Перша частина години")}
+    else
+        if
+        (time >= 16 && time <= 30) {
+            console.log("Друга частина години")}
+        else
+            if
+            (time >= 31 && time <= 45) {
+                console.log("Третя частина години")}
+            else if
+                (time >= 46 && time <= 59)
+                {
+                    console.log("Четверта частина години")
+                }
+            else{
+                console.log('Введіть числов від 0-59')
+            }
+
+</script>
+<!-- - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).-->
+<script>
+    let day =+prompt('У яку половину місяця потрапляє число?')
+    if
+    (day>=1 && day<=11)
+    {console.log('Перша частина місяця')}
+    else if (day >=12 && day <=21)
+    {console.log('Друга частина місяця')}
+    else if (day>=22 && day <=31)
+    {console.log('Третя частина місяця')}
+</script>
+<!-- - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).-->
+<script>
+    let dayofweek =+prompt('Введіть порядковий номер дня');
+    let monday={
+        name:'monday',
+        items:['Lecture', 'Phyzic']
+    }
+    let tuesday={
+        name:'tuesday',
+        items:['Advice','PE']
+    }
+    let wednesday={
+        name:'wednesday',
+        items:['Math','Psychology']
+    }
+    let thursday={
+        name:'thursday',
+        items:['French','Basketball']
+    }
+    let friday={
+        name:'friday',
+        items:['Football','IT']
+    }
+    let saturday={
+        name:'saturday',
+        items:['Ski','Html']
+    }
+    let sunday={
+        name:'sunday',
+        items:['CSS','Git']
+    }
+    switch (dayofweek) {
+        case 1:
+            console.log(monday,)
+            break
+        case 2:
+            console.log(tuesday)
+            break
+        case 3:
+            console.log(wednesday)
+            break
+        case 4:
+            console.log(thursday)
+            break
+        case 5:
+            console.log(friday)
+            break
+        case 6:
+            console.log(saturday)
+            break
+        case 7:
+            console.log(sunday)
+            break
+        default:
+            console.log('Введіть відповідне число від 1-7')
+
+    }
+</script>
+<!-- - Користувач вводить або має два числа.-->
+<!--Потрібно знайти та вивести максимальне число з тих двох .-->
+<!--Також потрібно врахувати коли введені рівні числа.-->
+<script>
+let one=+prompt('Введіть число 1')
+let two=+prompt('Введіть число 2')
+if (one<two){
+    console.log('Друге число більше за перше')
+}
+else if (one===two){
+    console.log('Числа рівні')
+}
+else if (one>two) {
+    console.log('Перше число більше за друге')
+}
+</script>
+<!-- - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,-->
+<!--за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)-->
+
+<script>
+let x = ''
+x = x || 'Default'
+console.log(x)
+</script>
+<!-- - з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".-->
+<script>
+    let coursesAndDurationArray = [
+        {title: 'JavaScript Complex', monthDuration: 5},
+        {title: 'Java Complex', monthDuration: 6},
+        {title: 'Python Complex', monthDuration: 6},
+        {title: 'QA Complex', monthDuration: 4},
+        {title: 'FullStack', monthDuration: 7},
+        {title: 'Frontend', monthDuration: 4}
+    ]
+    if (coursesAndDurationArray[0].monthDuration > 5){
+        console.log('Супер')
+    }
+    if (coursesAndDurationArray[1].monthDuration > 5){
+        console.log('Супер')
+    }
+    if (coursesAndDurationArray[2].monthDuration > 5){
+        console.log('Супер')
+    }
+    if (coursesAndDurationArray[3].monthDuration > 5){
+        console.log('Супер')
+    }
+    if (coursesAndDurationArray[4].monthDuration > 5){
+        console.log('Супер')
+    }
+    if (coursesAndDurationArray[5].monthDuration > 5){
+        console.log('Супер')
+    }
+</script>
+</body>
+</html>
