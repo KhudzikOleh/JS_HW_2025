@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60bf5d08-4844-4a67-96cb-f46a4479fc5f" name="Changes" comment="HW1">
-      <change afterPath="$PROJECT_DIR$/HW2.html" afterDir="false" />
+    <list default="true" id="60bf5d08-4844-4a67-96cb-f46a4479fc5f" name="Changes" comment="HW2">
+      <change afterPath="$PROJECT_DIR$/HW3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,9 @@
       <workItem from="1708597012665" duration="98000" />
       <workItem from="1708597300163" duration="3053000" />
       <workItem from="1708600846781" duration="3000" />
-      <workItem from="1708600857210" duration="20682000" />
+      <workItem from="1708600857210" duration="21309000" />
+      <workItem from="1708966941978" duration="2000" />
+      <workItem from="1708966945958" duration="7693000" />
     </task>
     <task id="LOCAL-00001" summary="HW1">
       <option name="closed" value="true" />
@@ -71,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708600815106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HW2">
+      <option name="closed" value="true" />
+      <created>1708783826809</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708783826809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW1" />
+    <MESSAGE value="HW2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW2" />
   </component>
 </project>
