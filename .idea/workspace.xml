@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60bf5d08-4844-4a67-96cb-f46a4479fc5f" name="Changes" comment="HW6">
-      <change afterPath="$PROJECT_DIR$/HW8/HW8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW8/HW8.js" afterDir="false" />
+    <list default="true" id="60bf5d08-4844-4a67-96cb-f46a4479fc5f" name="Changes" comment="HW8">
+      <change afterPath="$PROJECT_DIR$/HW9/HW9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW9/HW9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <workItem from="1708600846781" duration="3000" />
       <workItem from="1708600857210" duration="21309000" />
       <workItem from="1708966941978" duration="2000" />
-      <workItem from="1708966945958" duration="33328000" />
+      <workItem from="1708966945958" duration="40904000" />
     </task>
     <task id="LOCAL-00001" summary="HW1">
       <option name="closed" value="true" />
@@ -114,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709639256875</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1710250771152</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710250771152</updated>
+    </task>
+    <task id="LOCAL-00008" summary="HW8">
+      <option name="closed" value="true" />
+      <created>1710250780252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710250780252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +143,7 @@
     <MESSAGE value="HW4" />
     <MESSAGE value="HW5" />
     <MESSAGE value="HW6" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW6" />
+    <MESSAGE value="HW8" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW8" />
   </component>
 </project>
