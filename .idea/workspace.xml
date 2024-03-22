@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60bf5d08-4844-4a67-96cb-f46a4479fc5f" name="Changes" comment="HW9">
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.1/HW10.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.1/HW10.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.2/HW10.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.2/HW10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.3/HW10.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.3/HW10.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.4/HW10.4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.4/HW10.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.5/HW10.5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.5/HW10.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.6/HW10.6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.6/HW10.6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.7/HW10.7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.7/HW10.7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.8/HW10.8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/HW10.8/HW10.8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="60bf5d08-4844-4a67-96cb-f46a4479fc5f" name="Changes" comment="HW10">
+      <change afterPath="$PROJECT_DIR$/HW11/UserDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW11/Users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW11/head.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW11/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +67,7 @@
       <workItem from="1708600857210" duration="21309000" />
       <workItem from="1708966941978" duration="2000" />
       <workItem from="1708966945958" duration="41518000" />
-      <workItem from="1710575914485" duration="5407000" />
+      <workItem from="1710575914485" duration="7888000" />
     </task>
     <task id="LOCAL-00001" summary="HW1">
       <option name="closed" value="true" />
@@ -154,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710419130960</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW10">
+      <option name="closed" value="true" />
+      <created>1710856288969</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710856288969</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +164,7 @@
     <MESSAGE value="HW6" />
     <MESSAGE value="HW8" />
     <MESSAGE value="HW9" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW9" />
+    <MESSAGE value="HW10" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW10" />
   </component>
 </project>
